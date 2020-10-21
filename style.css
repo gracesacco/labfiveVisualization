@@ -1,0 +1,33 @@
+.user-control label {
+    margin-right: 20px;
+  }
+  
+  .user-control #attraction-category {
+    display: inline-block;
+    background: transparent;
+    max-width: 200px;
+    border: 1px solid #663399;
+    outline: none;
+  }
+
+  .bar {
+    fill: #FFC0CB;
+  }
+  
+  .bar:hover {
+    fill: #FF1493;
+  }
+
+  h1 {
+    color: black;
+    margin-bottom: 60px;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin-top: 60px;
+    color: black;
+  }
