@@ -60,6 +60,8 @@ console.log(type);
     .enter()
     .append("rect")
     .attr("class", "bar")
+    .transition()
+    .duration(1000) 
     .attr("x", function(d) {
         return xScale(d.company);
       })
@@ -69,9 +71,7 @@ console.log(type);
     .attr("height", function(d) {
         return height - yScale(d[type]);
       })
-    .attr("width", xScale.bandwidth())
-    .transition()
-    .duration(1000);
+    .attr("width", xScale.bandwidth());
 
     xAxisGroup = svg
         .select(".x-axis")
